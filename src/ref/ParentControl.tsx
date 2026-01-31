@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import FancyInput, { InputHandle } from './FancyInput'
+import FancyInput, { type InputHandle } from './FancyInput'
 
 const ParentControl = () => {
   const inputHandleRef = useRef<InputHandle | null>(null)
